@@ -1,0 +1,5 @@
+services:
+    cjcodes.triggers.banana_listener:
+        class: CJCodes\TriggerBundle\EventListener\BananaListener
+        tags:
+            - { name: kernel.event_subscriber }

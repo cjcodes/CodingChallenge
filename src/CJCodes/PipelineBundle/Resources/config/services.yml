@@ -1,0 +1,4 @@
+services:
+    cjcodes.pipeline.tracker_manager:
+        class: CJCodes\PipelineBundle\Service\TrackerManager
+        arguments: ["@doctrine.orm.entity_manager"]

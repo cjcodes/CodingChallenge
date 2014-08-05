@@ -1,0 +1,5 @@
+cj_codes_pipeline:
+    resource: "@CJCodesPipelineBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
